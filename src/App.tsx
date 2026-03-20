@@ -13,6 +13,7 @@ import {
   ArrowRight
 } from "lucide-react";
 import { useState, useCallback, useRef } from "react";
+import { Analytics } from '@vercel/analytics/react';
 
 // --- Components ---
 
@@ -541,6 +542,7 @@ export default function App() {
       <Blog />
       <Contact />
       <Footer />
+      <Analytics />
     </div>
   );
 }
